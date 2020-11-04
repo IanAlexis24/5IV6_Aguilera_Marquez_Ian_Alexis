@@ -1,0 +1,23 @@
+
+<html>
+    <head>
+        <title>CIFRADO CESAR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css"/>
+    </head>
+    <body> 
+       
+        <form action="cifrado.jsp" method="post" name="cifrado"> 
+             TEXTO: <input type="text" id="text" name="text" onclick="validarLetras()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             NUMERO DE POSICIONES: <input type="text" id="clave" name="clave" onclick="ValidarNumeros()"><BR><BR>
+            <input type="submit" name="cifrar" value="CIFRAR" style="width: 150px; height: 55px; font-size: 20px; float: left">
+        </form>
+        <br><br><br>
+        <form action="descifrado.jsp" method="post" name="descifrado"> 
+              TEXTO: <input type="text" id="text2" name="text2" onclick="validarLetras()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              NUMERO DE POSICIONES: <input type="text" id="clave2" name="clave2" onclick="ValidarNumeros()"><BR><BR>
+             <input type="submit" name="descifrar" value="DESCIFRAR" style="width: 150px; height: 55px; font-size: 20px; float: left">
+        </form>    
+    </body>
+</html>

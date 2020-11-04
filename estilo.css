@@ -1,0 +1,15 @@
+*{
+    margin: 1.3%;
+    padding: 1%;
+}
+
+body{
+    
+    font-family: monospace;
+    background-image: url('gif-batman.gif');
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    
+}
+
